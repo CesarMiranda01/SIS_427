@@ -1,0 +1,33 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página de inicio de sesión</title>
+    <!-- Enlace al archivo style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="loginform">
+        <h1>Iniciar sesión</h1>
+        <!-- La acción es el nombre del archivo PHP que procesará el formulario -->
+        <form name="login" action="login.php" method="post" enctype="multipart/form-data">
+            <ul>
+                <li>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </li>
+                <li>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+                </li>
+                <li>
+                    <button type="submit">Entrar</button>
+                </li>
+            </ul>
+        </form>
+    </section>
+    <!-- Enlace al archivo script.js -->
+    <script src="script.js"></script>
+</body>
+</html>

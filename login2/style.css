@@ -1,0 +1,44 @@
+/* style.css */
+/* Estilos CSS para el diseño de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.loginform {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.loginform h1 {
+    text-align: center;
+    color: #333;
+}
+.loginform ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.loginform li {
+    margin: 10px 0;
+}
+.loginform label {
+    display: block;
+    font-weight: bold;
+}
+.loginform input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.loginform button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
